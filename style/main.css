@@ -134,7 +134,7 @@ body {
 	padding: 0 12px;
 }
 .header {
-	background: url('../img/header-bg.png');
+	background: url(../img/header-bg.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	min-height: 110vh;
@@ -202,7 +202,7 @@ body {
 }
 .mobile {
 	margin-top: -20px;
-	background: url('../img/section1-bg.png');
+	background: url(../img/section1-bg.png);
 }
 .mobile__inner {
 	display: flex;
