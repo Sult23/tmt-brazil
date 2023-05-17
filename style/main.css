@@ -359,7 +359,21 @@ body {
 @media (max-width: 450px) {
 	.header {
 		min-height: auto;
-		padding-bottom: 50px;
+		padding-bottom: 120px;
+	}
+	.header__inner {
+		margin-left: 0;
+	}
+	.header__link {
+		width: 70%;
+	}
+	.container {
+		padding: 0 12px;
+		margin: 0;
+	}
+	.mobile__img {
+		margin-top: -180px;
+		margin-bottom: 20px;
 	}
 	.footer {
 		min-height: auto;
@@ -369,6 +383,8 @@ body {
 	}
 	.header__title {
 		font-size: 30px;
+		line-height: 40px;
+		padding: 0;
 	}
 	.header__text {
 		margin-bottom: 30px;
@@ -376,13 +392,22 @@ body {
 	.header__link {
 		font-size: 25px;
 	}
+	.footer__box {
+		padding: 0;
+	}
 	.footer__link {
 		min-height: 30px;
-		margin-bottom: 20px;
+		margin-bottom: 50px;
+	}
+	.footer__img {
+		margin-top: 20px;
 	}
 	.footer__logo {
 		display: inline-block;
 		max-width: 200px;
 		margin: 0 auto;
+	}
+	.footer__box-text {
+		margin-bottom: 30px;
 	}
 }
